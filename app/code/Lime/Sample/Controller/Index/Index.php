@@ -1,5 +1,5 @@
 <?php
-namespace Mageplaza\HelloWorld\Controller\Index;
+namespace Lime\Sample\Controller\Index;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\Action\Action;
@@ -21,6 +21,7 @@ class Index extends Action
     public function execute()
     {
         $resultPage = $this->_resultPageFactory->create();
+		$resultPage->addHandle('helloworld_index_index');
         return $resultPage;
     }
 }
