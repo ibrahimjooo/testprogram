@@ -2,6 +2,8 @@
 namespace Mageplaza\HelloWorld\Controller\Index;
 
 use Magento\Framework\App\Action\Context;
+use Magento\Framework\App\Action\Action;
+use Magento\Framework\View\Result\PageFactory;
  
 class Index extends \Magento\Framework\App\Action\Action
 {
