@@ -33,7 +33,7 @@ namespace Lime\Sample\Plugin;
             $url = $this->urlBuilder->getUrl("/sample/index/test"); //here you can add url as per your choice of menu
             return ['name' => __($name),
                 'id' => $id,
-                'url' => '/sample/index/test',
+                'url' => '/helloworld/index/index',
                 'has_active' => false,
                 'is_active' => false,];
         }
